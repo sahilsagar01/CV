@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+</head>
+<body>
+    <h1>Sahil Sagar</h1>
+    <p>Mob: 9801303266</p>
+    <p>Email: sagarsahil520@gmail.com</p>
+    <hr>
+    <h3><strong>Please Fill</strong></h3>
+    <form action="index.html" method="post">
+        <label for="">Name</label>
+        <input type="text" name="name" required>
+        <br>
+        <br>
+        <label for="">Mobile no.</label>
+        <input type="number" name="number" id="number"required >
+        <br>
+        <br>
+        <label for="">Email</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <fieldset>
+            <legend>Gender</legend>
+        <label for="">Male</label>
+        <input type="radio" name="gender" id="male"required>
+        <label for="">Female</label>
+        <input type="radio" name="gender" id="femail"required>
+        </fieldset>
+        <br>
+        <label for="">Date of birth</label>
+        <input type="date" name="date" id="date" required>
+        <br>
+        <br>
+        <label for="">State</label required>
+        <select name="State" id="State">
+        <option value="">--select--</option>
+        <option value="Bihar">Bihar</option>
+        </select>
+        <br>
+        <br>
+        <label for="">City</label>
+        <select name="City name" id="City name" required>
+        <option value="">--select a city--</option>
+        <option value="Patna">Patna</option>
+        <option value="Motihari">Motihari</option>
+        <option value="Baxar">Baxar</option>
+        <option value="Siwan">Siwan</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Pincode</label>
+        <input type="number" name="number" id="number">
+        <br>
+        <br>
+        <label for="">Address</label>
+        <textarea name="address" id="address" cols="30" rows="2"></textarea><br>
+        <input type="submit" value="submit">
+
+    </form>
+    
+</body>
+</html>
